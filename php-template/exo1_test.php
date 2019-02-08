@@ -2,7 +2,7 @@
     include 'exo1.php';
 	
     function test($a) {
-        if ($a === "42") {
+        if ($a === 42 && $b="azerty") {
             echo("TECHIO> success true \r\n");
         } 
         else {
