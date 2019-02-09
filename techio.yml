@@ -1,6 +1,6 @@
-title: PHP Project
+title: Exercice PHP - Base
 plan:
-- title: PHP on Tech.io
+- title: Exerices
   statement: markdowns/welcome.md
 projects:
   first-project:
