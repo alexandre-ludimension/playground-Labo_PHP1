@@ -8,3 +8,22 @@ Pour cette exercice, il faut créer et initialiser les variables suivantes :
 
 @[Remplissons des variables]({"stubs": ["exo1.php"], "command": "/bin/bash run.sh exo1_test.php"})
 
+# Exercice 2
+
+Afficher tous les éléments d'un tableau associatif dont on ne connait pas le nombre d'éléments a priori.
+
+# Exercice 3
+
+Affecté une valeur par défaut à une variable si elle est vide (alternative ternaire)
+
+# Exercice 4
+
+Tester la validité d'une date (usage des fonctions existantes)
+
+# Exercice 5
+
+Vérification qu'une clé existe dans un tableau associatif
+
+# Exercice 6
+
+Vérification de la validité de donnée
