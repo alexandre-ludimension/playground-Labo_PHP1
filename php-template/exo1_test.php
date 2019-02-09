@@ -1,3 +1,9 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+	</head>
+	<body>
 <?php
     include 'exo1.php';
 	
@@ -19,3 +25,5 @@
 	}
 
 ?>
+	</body>
+</html>
