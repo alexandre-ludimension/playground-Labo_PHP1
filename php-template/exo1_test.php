@@ -9,7 +9,7 @@
 		if (preg_match("#(for|while)#",$contents))
 			echo("TECHIO> message --channel Super! Une solution facilement adaptable. \r\n");
 		else if (preg_match("#array\(.+\)#",$contents))
-			echo("TECHIO> message --channel Bien C'est déjà pas mal. Mais cette solution serait-il pratique si le vecteur était beaucoup plus grand. \r\n");
+			echo("TECHIO> message --channel Bien C'est d&ecute;jà pas mal. Mais cette solution serait-il pratique si le vecteur était beaucoup plus grand. \r\n");
 		else
 			echo("TECHIO> message --channel OK La solution répond à la question mais il y a moyen de faire mieux.\r\n");
 	} 
