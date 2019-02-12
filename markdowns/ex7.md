@@ -5,4 +5,4 @@ La fonction calculera et renverra la distance séparant ces deux points.
 
 Formule : $`\sqrt{(x_2-x_1)^2 + (y_2-y_1)^2}`$
 
-@[Existance d'une clé]({"stubs": ["exo7.php"], "command": "/bin/bash run.sh exo7_test.php"})
+@[Distance entre 2 points]({"stubs": ["exo7.php"], "command": "/bin/bash run.sh exo7_test.php"})
