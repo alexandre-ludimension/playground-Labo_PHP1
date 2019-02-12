@@ -12,4 +12,4 @@ Les 3 valeurs seront renvoyées dans un tableau associatif. La clé pour chacune
 - positives `nb_pos` et 
 - nulles `nb_zero`.
 
-@[Recherche dans un tableau]({"stubs": ["exo7.php"], "command": "/bin/bash run.sh exo7_test.php"})
+@[Recherche dans un tableau]({"stubs": ["exo8.php"], "command": "/bin/bash run.sh exo8_test.php"})
