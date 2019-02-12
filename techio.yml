@@ -2,6 +2,24 @@ title: Exercice PHP - Base
 plan:
 - title: Exerices
   statement: markdowns/welcome.md
+- title: Exerice 1
+  statement: markdowns/ex1.md
+- title: Exerice 2
+  statement: markdowns/ex2.md
+- title: Exerice 3
+  statement: markdowns/ex2.md
+- title: Exerice 4
+  statement: markdowns/ex2.md
+- title: Exerice 5
+  statement: markdowns/ex2.md
+- title: Exerice 6
+  statement: markdowns/ex2.md
+- title: Exerice 7
+  statement: markdowns/ex2.md
+- title: Exerice 8
+  statement: markdowns/ex2.md
+- title: Exerice 9
+  statement: markdowns/ex2.md
 projects:
   first-project:
     root: /php-template
