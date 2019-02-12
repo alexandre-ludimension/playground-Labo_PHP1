@@ -7,19 +7,19 @@ plan:
 - title: Exerice 2
   statement: markdowns/ex2.md
 - title: Exerice 3
-  statement: markdowns/ex2.md
+  statement: markdowns/ex3.md
 - title: Exerice 4
-  statement: markdowns/ex2.md
+  statement: markdowns/ex4.md
 - title: Exerice 5
-  statement: markdowns/ex2.md
+  statement: markdowns/ex5.md
 - title: Exerice 6
-  statement: markdowns/ex2.md
+  statement: markdowns/ex6.md
 - title: Exerice 7
-  statement: markdowns/ex2.md
+  statement: markdowns/ex7.md
 - title: Exerice 8
-  statement: markdowns/ex2.md
+  statement: markdowns/ex8.md
 - title: Exerice 9
-  statement: markdowns/ex2.md
+  statement: markdowns/ex9.md
 projects:
   first-project:
     root: /php-template
