@@ -16,7 +16,7 @@
 		echo("TECHIO> success true \r\n");
 		$contents = file_get_contents("exo2.php");
 		
-		if (preg_match('#foreach\(.+as.+=>.+\)#',$contents))
+		if (preg_match('#foreach ?\(.+as.+=>.+\)#',$contents))
 			echo("TECHIO> message --channel Super! Une belle solution. \r\n");
 		else
 			echo("TECHIO> message --channel OK La solution répond à la question mais pense à la boucle foreach.\r\n");		

@@ -16,25 +16,25 @@ Pour cette exercice, il faut créer et initialiser les variables suivantes :
 
 # Exercice 2
 
-Afficher tous les éléments d'un tableau associatif dont on ne connait pas le nombre d'éléments a priori.
+Il faut afficher tous les éléments du tableau associatif `$tab` sous le format `cle:valeur\n`. Le nombre d'éléments du tableau n'est pas connu a priori.
 
 @[Parcours de tableau]({"stubs": ["exo2.php"], "command": "/bin/bash run.sh exo2_test.php"})
 
 # Exercice 3
 
-Affecté une valeur par défaut à une variable si elle est vide (alternative ternaire)
+Il faut affecter la valeur `10` à la variable `$var` si celle-ci est vide.
 
 @[Valeur par défaut]({"stubs": ["exo3.php"], "command": "/bin/bash run.sh exo3_test.php"})
 
 # Exercice 4
 
-Tester la validité d'une date (usage des fonctions existantes)
+Il faut tester la validité d'une date fourni grâce aux variables `$jour`, `$mois` et `$annee`. Si la date est valide la variable `$res` sera `TRUE` sinon `FALSE`.
 
 @[Tester une date]({"stubs": ["exo4.php"], "command": "/bin/bash run.sh exo4_test.php"})
 
 # Exercice 5
 
-Vérification qu'une clé existe dans un tableau associatif
+Il faut vérifier qu'une clé existe dans le tableau associatif `$tableau`. Si la clé existe la variable `$res` sera `TRUE` sinon `FALSE`.
 
 @[Existance d'une clé]({"stubs": ["exo5.php"], "command": "/bin/bash run.sh exo5_test.php"})
 
