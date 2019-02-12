@@ -81,16 +81,20 @@ La fonction retournera un tableau associatif contenant les informations suivante
 	
 # Exercice 7
 
-Définir des variables pour deux couples d’entiers représentant les coordonnées de deux points, sous la forme x1,y1 et x2,y2 et leur donner une valeur.
+Définir des variables pour deux couples d’entiers (`$x1`, `$x2`, `$y1` et `$y2`) représentant les coordonnées de deux points, sous la forme x1,y1 et x2,y2 et leur donner une valeur.
 Calculer ensuite la distance séparant ces deux points.
+
 Formule : $`\sqrt{(x_2-x_1)^2 + (y_2-y_1)^2}`$
 
 # Exercice 8
 
-Remplir un tableau de 10 cases sur 10 de valeurs comprises entre -20 et 20 générées aléatoirement.
-Compter les valeurs négatives, positives et nulles.
+Remplir un tableau de 10 cases sur 10 nommé `$tableau` de valeurs comprises entre -20 et 20 générées aléatoirement.
+Compter les valeurs 
+- négatives (la valeur est dans la variable `$nb_neg`),
+- positives (la valeur est dans la variable `$nb_pos`) et 
+- nulles (la valeur est dans la variable `$nb_zero`).
 
 # Exercice 9
 
-Générer un tableau contenant la liste des mille premier nombres premiers. Calculer ensuite la somme de ces nombres.
+Générer un tableau nommé `$premier` contenant la liste des mille premier nombres premiers. Calculer ensuite la somme de ces nombres.
 
