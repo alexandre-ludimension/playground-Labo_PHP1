@@ -77,3 +77,20 @@ La fonction retournera un tableau associatif contenant les informations suivante
 - `banque`
 	- `valide` valeur booléenne `TRUE` ou `FALSE` selon que les données dans `banque` sont valides ou non.
 	- `message` un message d'erreur relatif à `banque` si `valide` est `FALSE`.
+	
+	
+# Exercice 7
+
+Définir des variables pour deux couples d’entiers représentant les coordonnées de deux points, sous la forme x1,y1 et x2,y2 et leur donner une valeur.
+Calculer ensuite la distance séparant ces deux points.
+Formule : $`\sqrt{(x_2-x_1)^2 + (y_2-y_1)^2}`$
+
+# Exercice 8
+
+Remplir un tableau de 10 cases sur 10 de valeurs comprises entre -20 et 20 générées aléatoirement.
+Compter les valeurs négatives, positives et nulles.
+
+# Exercice 9
+
+Générer un tableau contenant la liste des mille premier nombres premiers. Calculer ensuite la somme de ces nombres.
+
