@@ -1,4 +1,4 @@
-<?php
+Ôªø<?php
 	include("exo8.php");
 	$test = array(
 				array("m"=>10,"n"=>10,"min"=>-20,"max"=>20)
@@ -31,7 +31,7 @@
 			}
 			else {
 				echo("TECHIO> success false  \r\n");
-				echo("TECHIO> message --channel Oops! Il y a moyen de n'utiliser q'un argument pour rÈsoudre le problËme\r\n");		
+				echo("TECHIO> message --channel Oops! Il y a moyen de n'utiliser q'un argument pour r√©soudre le probl√®me\r\n");		
 			}			
 		}
 		else {
