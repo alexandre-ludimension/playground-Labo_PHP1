@@ -1,3 +1,3 @@
 # Exercice 9
 
-Générer un tableau nommé `$premier` contenant la liste des mille premier nombres premiers. Calculer ensuite la somme de ces nombres.
+Il faut écrire une fonction `premiers` qui retourne un tableau contenant les `$n` premier nombres premiers. `n` est un paramètre fourni à la fonction.
