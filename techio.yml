@@ -1,6 +1,6 @@
 title: Exercice PHP - Base
 plan:
-- title: Exercices
+- title: REMARQUE
   statement: markdowns/welcome.md
 - title: Exercice 1
   statement: markdowns/ex1.md
