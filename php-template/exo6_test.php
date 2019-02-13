@@ -19,24 +19,26 @@
 
 		$result = check_form($data);
 		if ($response['result']==$result['valide']) {
-			foreach($response['champ'] as $champ => $valeur) {
-				if (!isset($result[$champ]['valide'])) {
-					echo("TECHIO> message --channel Oops! Données ($i): Information manquante pour $champ \r\n");		
-					$ret= $ret & FALSE;
-				}
-				else {
-					if ($result[$champ]['valide']!=$valeur) {
-						echo("TECHIO> message --channel Oops! Données ($i): Information mal vérifiée pour $champ \r\n");		
-						$ret= $ret & FALSE;						
-					}
-					else 
-						$ret= $ret & TRUE;
-				}
-			}
+			$ret= $ret & TRUE;
 		}
 		else {
 			$ret= $ret & FALSE;
 			echo("TECHIO> message --channel Oops! Les données ($i) devrait être considéré comme ".(($response['result']) ? "valide" : "invalide")." \r\n");
+		}
+		
+		foreach($response['champ'] as $champ => $valeur) {
+			if (!isset($result[$champ]['valide'])) {
+				echo("TECHIO> message --channel Oops! Données ($i): Information manquante pour $champ \r\n");		
+				$ret= $ret & FALSE;
+			}
+			else {
+				if ($result[$champ]['valide']!=$valeur) {
+					echo("TECHIO> message --channel Oops! Données ($i): Information mal vérifiée pour $champ \r\n");		
+					$ret= $ret & FALSE;						
+				}
+				else 
+					$ret= $ret & TRUE;
+			}
 		}
 		$i++;
 	}
