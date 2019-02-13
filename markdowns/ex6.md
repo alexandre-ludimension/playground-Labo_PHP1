@@ -37,3 +37,5 @@ La fonction retournera un tableau associatif contenant les informations suivante
 - `banque`
 	- `valide` valeur booléenne `TRUE` ou `FALSE` selon que les données dans `banque` sont valides ou non.
 	- `message` un message d'erreur relatif à `banque` si `valide` est `FALSE`.
+
+@[Vérification de données]({"stubs": ["exo6.php"], "command": "/bin/bash run.sh exo6_test.php"})
