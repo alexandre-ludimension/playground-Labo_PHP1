@@ -7,7 +7,7 @@
 					array("data" => array("nom" => "Dupond","prenom" => "Jean","CP" => 4020,"naissance" => "32/03/1979","banque" => "BE40 1235 2255 8889"),
 					  "response" => array("result" => FALSE, "champ" => array("nom" => TRUE,"prenom" => TRUE,"CP" => TRUE,"naissance" => FALSE,"banque" => TRUE))
 					  ),					
-					array("data" => array("nom" => "Dupond5","prenom" => "Jean$","CP" => 999,"naissance" => "30/03/1979","banque" => "BE40 ABCS 2255 8889"),
+					array("data" => array("nom" => "Dupond5","prenom" => "Jean$","CP" => 999,"naissance" => "29/02/1979","banque" => "BE40 ABCS 2255 8889"),
 					  "response" => array("result" => FALSE, "champ" => array("nom" => FALSE,"prenom" => FALSE,"CP" => FALSE,"naissance" => FALSE,"banque" => FALSE))
 					  )
 			);
