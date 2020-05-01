@@ -15,6 +15,6 @@
 	} 
 	else {
 		echo("TECHIO> success false  \r\n");
-		echo("TECHIO> message --channel Ooooooooops! Try Again 🐞 \r\n");
+		echo("TECHIO> message --channel Ooooooops! Try Again 🐞 \r\n");
 	}
 ?>
